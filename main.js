@@ -29,3 +29,12 @@ window.onload = function digital_fn(){
 var rellax = new Rellax('.rellax',{
     center: true
 })
+
+// Menu
+
+var menu = document.querySelector('.navbar ul');
+var menuIcone = document.querySelector('.menu-icone');
+
+function abrirMenu(){
+    menu.classList.toggle('open');
+}
